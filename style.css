@@ -2,26 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+
 }
+
 header {
-    margin-bottom: 30px;
-    margin-right: 23px;
+    margin:20px;
     background-color: black;
     font-size: 20px;
     color: white;
-   
+   padding:100px;
+    padding-right: 10px;
 }
+
 .lik-header {
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #989D9C;
     cursor: pointer;
-    margin-right: 23px;
+    margin-right: 90px;
 }
+
 body {
-  background-color: dimgrey;
+    background-color: dimgrey;
 }
 
 h1 {
@@ -30,31 +33,39 @@ h1 {
     line-height: 122px;
     color: black;
 }
+
 p {
     margin: 15px;
     padding: 15px;
 }
+
 section#image1 {
     background-image: url(./img/Screenshot_20230328_184326_WhatsApp.jpg);
     background-size: cover;
-    background-position:  right center;
+    background-position: right center;
 }
+
 h2 {
     margin: 20px;
     padding: 30px;
+    font-weight: 56px;
+    font-size: 100px;
+    line-height: 122px;
+    color: black;
 }
 
 
 .img-fotos {
-    margin:20px;
+    margin: 20px;
     width: 100px;
     padding: 30px;
-    
-    
-   
+
+
+
 }
-.fotos-image{
+
+.fotos-image {
     width: 220px;
     margin: 30px;
-    
+
 }
