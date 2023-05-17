@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salão</title>
+    <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -26,14 +27,24 @@
             proporcionar a você, a melhor <br>experiência do mundo da <br>
             barbearia!<br>
         </p>
+        
+        <button onclick="abrir()">Entre em contato</button>
 
 
     </main>
+    <form action="https://formsubmit.co/joselmom9@gmail.com." method="POST">
+        <input type="text" name="name" obrigatório placeholder="Nome">
+        <input type="email" name="email" obrigatório placeholder="Email">
+        <textarea placeholder="Sua duvida aqui"></textarea>
+        <button type="submit">Enviar</button>
+        <button onclick="fechar()" type="button" class="voltar">Voltar</button>
+    </form>
 
 
 
 
 
 </body>
+
 
 </html>
